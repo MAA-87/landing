@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: url(/img/main-screen__bgc.png);
+            background-size: auto;
+            background-repeat: no-repeat;
+
+        }
+
+        header {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 80px;
+            background: rgba(255, 251, 251, 0);
+        }
+
+        ul {
+            display: flex;
+        }
+
+        li {
+            list-style: none;
+            padding-left: 0;
+            margin: 0 4%;
+        }
+
+        li>a,
+        header>a {
+            flex-direction: row;
+            text-decoration: none;
+            color: white;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0em;
+            text-align: center;
+        }
+
+        header>a {
+            padding: 10px 30px;
+            background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+            border-radius: 50px;
+            margin-right: 0;
+        }
+
+        .one {
+
+            display: flex;
+            padding: 160px 320px;
+        }
+
+        .oneText {
+
+            color: white;
+        }
+
+        .oneContainer {
+            display: flex;
+        }
+
+        .card {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            width: 102px;
+            height: 112.84px;
+            padding: 20px 30px;
+            margin: 1%;
+            background: #121212;
+
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 140%;
+
+            text-align: center;
+
+            color: #b1b1b1;
+
+        }
+
+        .oneText>h1 {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 64px;
+            line-height: 140%;
+
+        }
+
+        .whiteNumber {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 140%;
+            color: white;
+        }
+
+        .two {
+            width: 1930px;
+            height: 130px;
+            left: 0;
+            top: 530px;
+            border: 1px solid black;
+            background: #121212;
+            color: white;
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: row;
+            align-content: stretch;
+            flex-grow: initial;
+            float: left;
+            
+        }
+
+        .twoContainer {
+            flex-wrap: nowrap;
+            display: flex;
+            align-content: stretch;
+
+        }
+
+
+
+
+
+
+        .two .twoContainer div {
+            display: flex;
+            color: white;
+
+     
+
+        }
+
+        .two>.twoContainer ul,
+        .two>.twoContainer li {
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: column;
+            align-content: stretch;
+            color: white;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0em;
+            height: 50%;
+       width: 200px;
+        }
+
+
+
+        .two .button_k {
+            display: flex;
+            height: 44px;
+            width: 169px;
+            border-radius: 50px;
+            background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+            justify-content: center;
+            align-items: center;
+            margin-left: 60px;
+            margin-top: 30px;
+            padding: 10px 30px;
+            text-decoration: none;
+            color: white;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 150%;
+        }
+
+
+        .two .stripe {
+
+            border: 0.1px outset black;
+            box-shadow: 0 0 1px white;
+            margin: 3px 0 5px 15px;
+            padding: 5px 10px;
+            width: 400px;
+            background: linear-gradient(94.78deg, #DF5950 10%, #451046 70%, #ffffff 40%);
+        }
+
+        .two>.twoContainer .summa,  .two>.twoContainer li  {
+
+            display: flex;
+            text-align: left;
+            flex-basis: 30%;
+            flex-wrap: nowrap;
+        align-content: stretch;
+     
+
+
+        }
+        .rl{
+            display: inline;
+            margin-left: 5px;
+          
+            width: 1000px;
+        }
+        .rl>li{
+            display: inline;
+            font-weight: 1000;
+            
+        }
+     
+ .right {
+     margin-right: 0px;
+            opacity: 0.4;
+        }
+
+   .left {
+
+
+        margin-left: 40px;
+            opacity: 0.4;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="imgLogo">
+            <img src="img/logo.png" alt="">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Курсы</a></li>
+                <li><a href="#">Расписание</a></li>
+                <li><a href="#">Преподаватели</a></li>
+                <li><a href="#">Рассылка</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+        <a href="#" class="cabinet">Зайти в кабинет</a>
+    </header>
+    <section class="one">
+        <div class="oneText">
+            <h1>Первый курс<br> по компьютерной сборке</h1>
+            <div class="oneContainer">
+                <div class="card"><span class="whiteNumber">18</span> дней</div>
+                <div class="card"><span class="whiteNumber">18</span> часов</div>
+                <div class="card"><span class="whiteNumber">18</span> минут</div>
+                <div class="card"><span class="whiteNumber">18</span> секунд</div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="two">
+
+        <div class="twoContainer">
+
+
+            <a class="button_k" href="#">Заказать курс</a>
+
+
+            <ul>
+                <li>Учеников всего:</li>
+               
+                <li>Успешно закончили курс: </li>
+
+            </ul>
+
+            <ul>
+                <li>200</li>
+                <li>190</li>
+            </ul>
+
+
+
+            <ul class="summa">
+                <div class="rl">
+
+                <li>Заработано учениками: </li>
+            <li>400 000 ₽</li>
+            </div>
+                <li>
+                    <div class="stripe"></div></li>
+ 
+                <div class="rl">
+                <li class="left">0  </li>
+                <li class="right">1 000 000₽</li>
+                </div>
+            </ul>
+     </ul>
+
+
+        </div>
+
+    </section>
+</body>
+
+</html>
